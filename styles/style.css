@@ -64,6 +64,10 @@ body {
   text-wrap: nowrap;
 }
 
+.header__nav ul li a:hover {
+  text-decoration: underline;
+}
+
 .nav {
   padding-inline-start: 12px;
   display: flex;
@@ -80,6 +84,10 @@ body {
   text-decoration: none;
 }
 
+.nav a:hover {
+  text-decoration: underline;
+}
+
 .header__button {
   background-color: #e6f7f9;
   color: #03b2a5;
@@ -91,6 +99,11 @@ body {
   font-size: 16px;
   /* letter-spacing: 0.8px; */
   justify-self: end;
+}
+
+.header__button:hover {
+  background-color: #03b2a5;
+  color: #e6f7f9;
 }
 
 .header__burger {
@@ -130,6 +143,10 @@ body {
   letter-spacing: 0;
   white-space: nowrap;
   margin: 4px 6px;
+}
+
+.filters-button:hover {
+  outline: 2px solid #16c8bb;
 }
 
 .filters__button--active {
@@ -244,6 +261,10 @@ body {
   cursor: pointer;
 }
 
+.pagination__button:hover {
+  background-color: #017a6d;
+}
+
 .footer {
   overflow: hidden;
   box-sizing: border-box;
@@ -282,6 +303,10 @@ body {
   text-decoration: none;
   white-space: nowrap;
   text-align: left;
+}
+
+.footer .footer__section a:hover {
+  text-decoration: underline;
 }
 
 .footer .footer__section h3 {
@@ -330,6 +355,10 @@ body {
   display: flex;
   align-items: center;
   transition: background 0.2s;
+}
+
+.footer__section button:hover {
+  background-color: #12978d;
 }
 
 .footer .footer__section button img {
@@ -391,6 +420,10 @@ body {
   font-size: 14px;
   line-height: 20px;
   /* letter-spacing: 1px; */
+}
+
+.footer .footer__contacts p a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 1264px) {
