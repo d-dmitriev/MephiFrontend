@@ -800,6 +800,18 @@ body {
   cursor: pointer;
 }
 
+.dekor1 {
+  position: absolute;
+  right: 0px;
+  top: 2480px;
+}
+
+.dekor2 {
+  position: absolute;
+  right: 0px;
+  top: 5269px;
+}
+
 .footer {
   overflow: hidden;
   box-sizing: border-box;
